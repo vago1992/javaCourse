@@ -1,6 +1,10 @@
 package paquete;
 
 public class ClaseMain {
+	static double sumarIva(double precio) {
+		return (precio+precio*0.21);
+	}
+	
 
 	public static void main(String[] args) {
 		
@@ -15,6 +19,12 @@ public class ClaseMain {
 		System.out.println(num3);
 		System.out.println(bul);
 		System.out.println(palabra);
+		
+		double precioIva=sumarIva(150.10);
+		
+		System.out.println(precioIva);
+		
+		
 
 	}
 
