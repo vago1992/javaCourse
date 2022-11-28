@@ -24,6 +24,14 @@ public class ClaseMain {
 		
 		System.out.println(precioIva);
 		
+		String[] nombres= {"Hola ","Mundo ","Como ","va ","?"};
+		String nombreConca="";
+		
+		for (String nombre : nombres) {
+			nombreConca+=nombre;
+		}
+		
+		System.out.println(nombreConca);
 		
 
 	}
