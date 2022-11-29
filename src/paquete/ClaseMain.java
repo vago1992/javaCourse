@@ -33,6 +33,14 @@ public class ClaseMain {
 		
 		System.out.println(nombreConca);
 		
+		//Clases
+		
+		SmartDevice iphone= new SmartPhone("Iphone","Celular","Negro",100,"Ios");
+		SmartDevice appleWatch=new SmartWatch("AppleWatch","SmartWatch","Blanco",25,30);
+		
+		System.out.println(iphone);
+		System.out.println(appleWatch);
+		
 
 	}
 
